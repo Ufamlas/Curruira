@@ -1,3 +1,4 @@
 *.h5
 Background_noise2_Larissa/
 *.pkl
+!biophony_model/*
