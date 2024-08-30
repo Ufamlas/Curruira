@@ -1,0 +1,24 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting shap
+  Downloading shap-0.46.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (540 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 540.1/540.1 KB 1.3 MB/s eta 0:00:00
+Requirement already satisfied: tqdm>=4.27.0 in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (4.66.5)
+Requirement already satisfied: packaging>20.9 in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (24.1)
+Requirement already satisfied: numpy in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (1.26.4)
+Requirement already satisfied: scikit-learn in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (1.5.1)
+Requirement already satisfied: scipy in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (1.14.0)
+Requirement already satisfied: numba in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (0.60.0)
+Requirement already satisfied: pandas in /home/ufamlas/.local/lib/python3.10/site-packages (from shap) (2.2.2)
+Collecting slicer==0.0.8
+  Downloading slicer-0.0.8-py3-none-any.whl (15 kB)
+Collecting cloudpickle
+  Downloading cloudpickle-3.0.0-py3-none-any.whl (20 kB)
+Requirement already satisfied: llvmlite<0.44,>=0.43.0dev0 in /home/ufamlas/.local/lib/python3.10/site-packages (from numba->shap) (0.43.0)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/ufamlas/.local/lib/python3.10/site-packages (from pandas->shap) (2.9.0.post0)
+Requirement already satisfied: tzdata>=2022.7 in /home/ufamlas/.local/lib/python3.10/site-packages (from pandas->shap) (2024.1)
+Requirement already satisfied: pytz>=2020.1 in /usr/lib/python3/dist-packages (from pandas->shap) (2022.1)
+Requirement already satisfied: joblib>=1.2.0 in /home/ufamlas/.local/lib/python3.10/site-packages (from scikit-learn->shap) (1.4.2)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /home/ufamlas/.local/lib/python3.10/site-packages (from scikit-learn->shap) (3.5.0)
+Requirement already satisfied: six>=1.5 in /usr/lib/python3/dist-packages (from python-dateutil>=2.8.2->pandas->shap) (1.16.0)
+Installing collected packages: slicer, cloudpickle, shap
+Successfully installed cloudpickle-3.0.0 shap-0.46.0 slicer-0.0.8
